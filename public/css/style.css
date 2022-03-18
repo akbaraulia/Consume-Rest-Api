@@ -1051,13 +1051,13 @@ table tr:hover .table-links {
 
 /* 3.10 Pagination */
 .page-item .page-link {
-  color: #6777ef;
+  color: #4ECCA3 !important;
   border-radius: 3px;
   margin: 0 3px; }
 
 .page-item.active .page-link {
-  background-color: #6777ef;
-  border-color: #6777ef; }
+  background-color: #4ECCA3 !important;
+  border-color: #4ECCA3 !important; }
 
 .page-item.disabled .page-link {
   border-color: transparent;

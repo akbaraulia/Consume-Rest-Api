@@ -1,4 +1,4 @@
-<x-layouts.app :title="$title" :breadcrumbs="$breadcrumbs">
+<x-layouts.app >
     <div class="card">
         <div class="card-body">
             <form action="{{ route('users.update', $user['id']) }}" method="POST">
@@ -31,7 +31,8 @@
                         </div>
                     @enderror
                 </div>
-                <button class="btn btn-primary">Submit</button>
+                <a href="{{ URL::previous() }}" class="btn btn-info mt-3"><i class="fas fa-angle-left"></i> Kembali</a>
+                <button class="btn btn-success mt-3">Submit</button>
             </form>
         </div>
     </div>
